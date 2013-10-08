@@ -1,0 +1,70 @@
+    *{margin: 0; padding: 0}
+     #wrapper {
+        width: 300px;
+        margin: 20px auto;
+        padding: 5px 15px;
+        overflow: hidden;
+     }
+     
+     body#admin #wrapper {
+        width: 500px;
+        margin: 20px auto;
+     }
+     
+     body#admin a {
+        color: maroon;
+     }
+     
+     p {
+        margin: 10px 0px;
+     }
+     
+     form, ul {
+        border: 1px solid maroon;
+        padding: 10px;
+     }
+     
+     ul {
+        list-style: inside;
+     }
+       
+    label {
+        float: left;
+        display: block;
+        font-weight: bold;
+        width: 90px;
+    }
+    
+    input {
+        padding: 2px 3px;
+    }
+    
+    input[name='submit'] {
+        margin-left: 90px;
+        }
+     
+    div.login {
+        text-align: center;
+        border-top: 4px solid maroon;
+        background: transparent url(login.gif) no-repeat top center;
+    }
+    
+    div a {
+        color: white;
+        text-decoration: none;
+        font: bold 16px "Museo 700";
+        display: block;
+        width: 150px; height: 40px;
+        line-height: 40px;
+        margin: 0px auto;
+        background: transparent url(arrow.png) no-repeat 23px -18px;
+    }
+    
+    div a.active {
+        background-position: 23px 12px;
+    }
+
+    div a:active, a:focus {
+        outline: none;
+    }
+
